@@ -1,4 +1,14 @@
 
+# Helper function to create a custom format derived from pdf_document that
+# includes a custom LaTeX template
+pdf_document_format <- function(
+  format, template = find_resource(format, 'template.tex'), ...
+) {
+  fmt <- rmarkdown::pdf_document(..., template = template)
+  fmt$inherits <- "pdf_document"
+  fmt
+}
+
 #' @section \code{eisvogel}: Format for creating a PDF document with the
 #'   Eisvogel template. Documentation and source can be found under:
 #'   \url{https://github.com/Wandmalfarbe/pandoc-latex-template}.
