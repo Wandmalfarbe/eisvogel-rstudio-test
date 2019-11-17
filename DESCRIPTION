@@ -1,13 +1,15 @@
 Package: eisvogel
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Type: Package
+Title: A Pandoc Latex Template for Lecture Notes and Exercises.
+Version: 1.3.0
+Authors@R:
+    person(given = "Pascal",
+           family = "Wagler",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "wandmalfarbe@users.noreply.github.com")
+Author: Pascal Wagler
+Description: A clean pandoc LaTeX template to convert your markdown files to PDF or LaTeX designed for lecture notes and exercises with a focus on computer science.
+License: BSD-3-Clause
 Encoding: UTF-8
-LazyData: true
+URL: https://github.com/Wandmalfarbe/pandoc-latex-template
+BugReports: https://github.com/Wandmalfarbe/pandoc-latex-template/issues
