@@ -1,3 +1,3 @@
 name: Eisvogel
 description: A clean pandoc LaTeX template designed for lecture notes and exercises with a focus on computer science.
-create_dir: false
+create_dir: true
